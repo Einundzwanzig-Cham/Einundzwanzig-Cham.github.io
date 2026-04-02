@@ -163,6 +163,7 @@ body {
     height: 350px;
     /*width: auto;
     max-width: 600px;*/
+    margin-top: 3rem;
     margin-bottom: 2rem;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
@@ -214,6 +215,7 @@ body {
 
 .btn-primary {
     background: var(--bitcoin-orange);
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
     color: #000;
 }
 
@@ -326,6 +328,11 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+}
+
+.meetup-buttons{
+    flex-direction: column;
+    align-items: left;
 }
 
 .meetup-content h3 {
