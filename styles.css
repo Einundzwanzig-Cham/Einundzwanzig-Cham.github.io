@@ -163,7 +163,7 @@ body {
     height: 350px;
     /*width: auto;
     max-width: 600px;*/
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-bottom: 2rem;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
@@ -215,7 +215,8 @@ body {
 
 .btn-primary {
     background: var(--bitcoin-orange);
-    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
     color: #000;
 }
 
